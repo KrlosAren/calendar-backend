@@ -123,7 +123,7 @@ const eventDelete = async (req = request, resp = response) => {
       });
     }
 
-    await event.findByIdAndDelete(eventId);
+    await Event.findByIdAndDelete(eventId);
 
     resp.status(200).json({
       ok: true,
