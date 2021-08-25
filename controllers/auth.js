@@ -72,6 +72,7 @@ const authLogin = async (req, resp) => {
 
     resp.status(200).json({
       msg: 'login success',
+      ok: true,
       uid: user.id,
       name: user.name,
       token,
