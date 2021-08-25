@@ -93,6 +93,8 @@ const authTokenRenew = async (req, resp) => {
     ok: true,
     msg: 'refresh token',
     token,
+    uid: req.uid,
+    name: req.name,
   });
 };
 
