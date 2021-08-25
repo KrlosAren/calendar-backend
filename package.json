@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "DEBUG=express:* nodemon index.js --inspect",
-    "prod": "node index.js"
+    "start": "node index.js",
+    "dev": "DEBUG=express:* nodemon index.js --inspect"
   },
   "keywords": [],
   "author": "Carlos Lopez Z. <<krlosaren@gmail.com>",
